@@ -1,11 +1,13 @@
-from ast import Expression
 import re
 from tkinter import *
 
+#creating window object
 window = Tk()
 
 expression = ""
 
+#basic function, uses a switch statment based on the passed in operator
+#to do the basic calculation, returns this value back
 def basic_cal(numb1, numb2, operator):
      x = numb1
      y = numb2
@@ -22,6 +24,7 @@ def basic_cal(numb1, numb2, operator):
      else:
          return "Error"
 
+#button press function
 def press(num):
     global expression
  
@@ -29,6 +32,7 @@ def press(num):
  
     equation.set(expression)
 
+#calculate total
 def calculate():
 
     try:
@@ -47,13 +51,13 @@ def calculate():
         equation.set(" error ")
         expression = ""
     
-
+#clear display
 def clear():
     global expression
     expression = ""
     equation.set("")
 
-
+#driver code
 if __name__ == "__main__":
     window.configure(background="gray")
     window.title("Calculator")
