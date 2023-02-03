@@ -61,7 +61,8 @@ if __name__ == "__main__":
     window.configure(background="gray")
     window.title("Calculator")
     window.geometry("240x480")
-
+    window.minsize(120,240)
+    window.maxsize(2160,3840)
 
     equation = StringVar()
     expression_field = Entry(window, textvariable=equation, font='100', state=DISABLED)
