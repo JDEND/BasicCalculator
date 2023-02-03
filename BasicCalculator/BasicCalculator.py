@@ -33,7 +33,7 @@ def press(num, _event=None):
     equation.set(expression)
 
 #calculate total
-def calculate():
+def calculate(_event=None):
 
     try:
         global expression
@@ -97,6 +97,7 @@ if __name__ == "__main__":
     window.bind('+', lambda event:press("+"))
     window.bind('^', lambda event:press("^"))
     window.bind('.', lambda event:press("."))
+    window.bind('<Return>', calculate)
 
     button1 = Button(window, text=' 1 ', fg='black', bg='dark gray',font='10', command=lambda: press(1), height=5, width=10)
     button1.grid(row=2, column=0) 
@@ -142,6 +143,7 @@ if __name__ == "__main__":
  
     equal = Button(window, text=' = ', fg='black', bg='dark gray',font='10',command=calculate, height=5, width=10)
     equal.grid(row=5, column=2)
+
 
     power = Button(window, text=' ^ ', fg='black', bg='dark gray',font='10',command=lambda: press("^"), height=5, width=10)
     power.grid(row=6, column=1)
