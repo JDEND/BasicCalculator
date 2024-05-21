@@ -17,7 +17,7 @@ These instructions will help you set up the calculator on your local machine.
 
 ## Prerequisites
 
-Ensure you have Python 3.10 installed on your system. You can download it from the official Python website.
+Ensure you have Python 3.10 installed on your system. You can download it from the [official Python website](https://www.python.org/downloads/).
 
 ## Installation
 
