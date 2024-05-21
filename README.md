@@ -21,17 +21,17 @@ Ensure you have Python 3.10 installed on your system. You can download it from t
 
 ## Installation
 
-1. Clone the repository to your local machine using the following command:
+1. Clone the repository to your local machine using the following command:<br>
 ```git clone https://github.com/JDEND/BasicCalculator.git```
 
-2. Navigate to the project directory:
+2. Navigate to the project directory:<br>
 ```cd BasicCalculator```
 
 ## Running the project
 
-Run the calculator application by executing the following command:
-Windows: `python3 calculator.py`
-Linux: `python calculator.py`
+Run the calculator application by executing the following command:<br>
+Windows: `python3 calculator.py`<br>
+Linux: `python calculator.py`<br>
 MacOS: `pythonw calculator.py`
 
 ## Usage
