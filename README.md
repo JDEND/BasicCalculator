@@ -50,3 +50,8 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 
 - The Tkinter library for providing the tools to create the GUI.
 - The Python community for continuous support and inspiration.
+
+##
+[GitHub Profile](https://github.com/JDEND)
+<br>
+[LinkedIn Profile](https://www.linkedin.com/in/endicottj/)
